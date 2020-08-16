@@ -26,3 +26,13 @@ runner.add(()=>{
     console.log('world');
 });
 runner.setSpeed(2000);
+
+
+ let arr = ['map','good','apple'];
+ const newArr = (array) => {
+ for (let index = 0; index < array.length; index++) {
+     const element = array[index].length;
+     console.log(element)
+ };
+ }
+newArr(arr);
